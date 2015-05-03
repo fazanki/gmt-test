@@ -2,7 +2,8 @@
 
 require.config({
     paths: {
-        jquery: '../bower_components/jquery/dist/jquery'
+        jquery: '../bower_components/jquery/dist/jquery',
+        backbone: '../bower_components/backbone/backbone',
     },
     shim: {
        
@@ -10,7 +11,8 @@ require.config({
     }
 });
 
-require(['views/app', 'jquery'], function(AppView){
+require(['views/app', 'jquery'], function(AppView) {
     
+
 
 });
